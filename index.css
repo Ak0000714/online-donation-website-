@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color:black;;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}
+
+.donation-categories {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.donation-categories h2 {
+    margin-bottom: 20px;
+}
+
+.donation-categories form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-categories select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.donation-categories button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donation-categories button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}

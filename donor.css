@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s;
+}
+
+.dashboard-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-container h1 {
+    margin-bottom: 20px;
+}
+
+.dashboard-container #campaignList {
+    margin-top: 20px;
+}
+
+.donate-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.donate-button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}
